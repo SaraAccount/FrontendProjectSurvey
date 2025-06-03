@@ -1,9 +1,12 @@
+import Button from '@mui/material/Button';
 
 export const Surveys = ()=>
 {
     return <>
     <h1>SURVEYS</h1>
-    <button>create new survey</button>
+    <Button variant="contained">create new survey</Button>
     <h1>**** all the surveys ****</h1>
     </>
 }
+
+
